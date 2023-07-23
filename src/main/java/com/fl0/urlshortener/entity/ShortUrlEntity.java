@@ -18,7 +18,7 @@ public class ShortUrlEntity {
     @Column(unique = true)
     private String key;
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String fullUrl;
 
     @Column(nullable = false)
