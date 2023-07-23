@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST_NAME:localhost}:${DB_PORT:5432}/${DB_NAME:url_shortener}
+    username: ${DB_USERNAME:user123}
+    password: ${DB_PASSWORD:pass123}
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+short-url:
+  base-url: ${BASE_URL:http://localhost:8080}
+  allowed-characters: ${ALLOWED_CHARS:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789}
+  key-length: ${KEY_LENGTH:6}
+
+chrome-extension-id: ${CHROME_EXTENSION_ID:<your_chrome_extension_id>}
