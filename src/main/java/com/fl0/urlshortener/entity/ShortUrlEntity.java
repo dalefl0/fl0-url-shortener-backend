@@ -8,7 +8,7 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "url_store")
+@Table(name = "short_urls")
 public class ShortUrlEntity {
     @Id
     @Column(name = "id", nullable = false)
