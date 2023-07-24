@@ -8,6 +8,5 @@ import lombok.Setter;
 @Setter
 @Builder
 public class ShortUrlResponse {
-    private String url;
-    private String error;
+    private String key;
 }

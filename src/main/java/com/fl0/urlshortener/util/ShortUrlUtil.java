@@ -30,10 +30,4 @@ public class ShortUrlUtil {
 
         return keyBuilder.toString();
     }
-
-    public String generateShortUrl(String key) {
-        String baseUrl = config.getBaseUrl();
-        return baseUrl + "/" + key;
-    }
-
 }

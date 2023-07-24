@@ -8,7 +8,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Getter
 @Setter
 public class ShortUrlConfig {
-    private String baseUrl;
     private String allowedCharacters;
     private int keyLength;
 }
