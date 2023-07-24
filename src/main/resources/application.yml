@@ -2,9 +2,9 @@ server:
   port: 8080
 spring:
   datasource:
-    url: jdbc:postgresql://${PGHOST:ep-orange-wind-884154.ap-southeast-1.aws.neon.tech}:${PGPORT:5432}/${PGDATABASE:postgres}
+    url: jdbc:postgresql://${PGHOST:ep-square-boat-81856137.ap-southeast-1.aws.neon.tech}:${PGPORT:5432}/${PGDATABASE:postgres}
     username: ${PGUSER:fl0user}
-    password: ${PGPASSWORD:S6WndIcNJi7B}
+    password: ${PGPASSWORD:iHJpfe3v1sSF}
   jpa:
     hibernate:
       ddl-auto: update
