@@ -10,6 +10,5 @@ spring:
       ddl-auto: update
 
 short-url:
-  base-url: ${BASE_URL:http://localhost:8080}
   allowed-characters: ${ALLOWED_CHARS:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789}
   key-length: ${KEY_LENGTH:6}
